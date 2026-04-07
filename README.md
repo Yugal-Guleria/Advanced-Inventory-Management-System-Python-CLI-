@@ -44,3 +44,6 @@ inventory = {
 
 1. Install Python
 2. Save the file as `inventory.py`
+
+## Output<img width="1920" height="1080" alt="Screenshot (10)" src="https://github.com/user-attachments/assets/d7650bd4-30dd-4576-a558-aa672f0f02a6" />
+
