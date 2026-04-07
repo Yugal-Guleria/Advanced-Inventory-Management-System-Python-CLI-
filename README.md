@@ -1,31 +1,34 @@
-# Inventory Management System (Python - Beginner Project)
+# Advanced Inventory Management System (Python CLI)
 
 ## Overview
 
-This is a simple command-line based Inventory Management System built using Python.
-It allows users to manage items across categories such as vegetables and fruits.
+This is a command-line based Inventory Management System built using Python.
+It simulates a basic real-world shop system with multiple categories, item tracking, and stock management.
 
-The project demonstrates core programming concepts like functions, loops, conditionals, and basic data structures.
+The project is structured using functions, nested dictionaries, and clear modular logic.
 
 ---
 
 ## Features
 
-* View all items in inventory
-* Add new items to a category
-* Check if an item exists
+* View all inventory items category-wise
+* Add new items with price and quantity
+* Check item availability
+* Update item quantity
+* Low stock alert system
+* Delete items from inventory
 * Exit the system
 
 ---
 
 ## Concepts Used
 
-* if-else (decision making)
-* while loop (continuous execution)
-* functions (code modularity)
-* dictionary (data storage)
-* lists (handling multiple values)
-* f-strings (formatted output)
+* if-elif-else for decision making
+* while loop for continuous execution
+* functions for modular and reusable code
+* nested dictionaries for structured data storage
+* for loops for iteration
+* f-strings for formatted output
 
 ---
 
@@ -33,20 +36,69 @@ The project demonstrates core programming concepts like functions, loops, condit
 
 ```python
 inventory = {
-    "vegetables": ["Tomato", "Potato"],
-    "fruits": ["Mango", "Pineapple"]
+    "category": {
+        "item_name": {
+            "price": int,
+            "qty": int
+        }
+    }
 }
+```
+
+Example:
+
+```python
+"Apple": {"price": 120, "qty": 25}
+```
+
+---
+## Menu System
+
+```
+===== INVENTORY SYSTEM (ADVANCED) =====
+1. View Items
+2. Add Item
+3. Check Item
+4. Update Quantity
+5. Low Stock Alert
+6. Delete Item
+7. Exit
 ```
 
 ---
 
-## How to Run
+## Functional Breakdown
 
-1. Install Python
-2. Save the file as `inventory.py`
+View Items
+Displays all categories with item name, price, and quantity
 
-## Output
+Add Item
+Adds a new item with category, price, and quantity
 
+Check Item
+Checks if an item exists and shows its details
 
-<img width="411" height="686" alt="Screenshot 2026-04-07 175632" src="https://github.com/user-attachments/assets/9c5a8d52-56f2-4d77-82c1-d7518ba14a05" />
+Update Quantity
+Updates the stock quantity of an existing item
 
+Low Stock Alert
+Displays items with quantity less than 20
+
+Delete Item
+Removes an item from inventory
+
+---
+
+## Limitations
+
+* Data is stored in memory and is not persistent
+* No validation for invalid numeric inputs
+* Command-line interface only
+
+---
+
+## Author
+
+Beginner to intermediate level project focused on practical Python development.
+
+---
