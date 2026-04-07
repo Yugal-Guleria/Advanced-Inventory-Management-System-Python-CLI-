@@ -1,7 +1,3 @@
-Bhai ye project **achha hai**, bas thoda polish karke tu ise **proper professional bana sakta hai**. Main tujhe clean version de raha hoon (no over emojis, more professional):
-
----
-
 # Inventory Management System (Python - Beginner Project)
 
 ## Overview
