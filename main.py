@@ -1,4 +1,4 @@
-nigga# ADVANCED INVENTORY MANAGEMENT SYSTEM
+ADVANCED INVENTORY MANAGEMENT SYSTEM
 
 #Created and data storage disc named inventory 
 
