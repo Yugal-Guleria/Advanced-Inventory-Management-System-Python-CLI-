@@ -1,7 +1,7 @@
 ADVANCED INVENTORY MANAGEMENT SYSTEM
 
 #Created and data storage disc named inventory 
-nigga
+
 inventory = {
     "vegetables": {
         "Tomato": {"price": 20, "qty": 50},
