@@ -2,7 +2,7 @@ ADVANCED INVENTORY MANAGEMENT SYSTEM
 
 #Created and data stojage disc named inventory 
 
-inventory = {
+inventory = { 
     "vegetables": {
         "Tomato": {"price": 20, "qty": 50},
         "Potato": {"price": 15, "qty": 80},
